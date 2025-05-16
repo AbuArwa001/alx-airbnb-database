@@ -1,4 +1,12 @@
 -- Role Table
+CREATE DATABASE IF NOT EXISTS AirBnB;
+USE AirBnB;
+-- Drop existing tables if they exist   
+
+DROP TABLE IF EXISTS Message;
+DROP TABLE IF EXISTS Review;
+DROP TABLE IF EXISTS Payment;
+DROP TABLE IF EXISTS Booking;
 CREATE TABLE Role (
     role_id INT PRIMARY KEY AUTO_INCREMENT,
     role_name VARCHAR(50) NOT NULL

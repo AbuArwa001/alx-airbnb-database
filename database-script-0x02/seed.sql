@@ -1,4 +1,6 @@
 -- Insert Roles
+CREATE DATABASE IF NOT EXISTS AirBnB;
+USE AirBnB;
 INSERT INTO Role (role_id, role_name) VALUES
 (1, 'guest'),
 (2, 'host'),
