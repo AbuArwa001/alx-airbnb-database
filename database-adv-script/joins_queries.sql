@@ -14,7 +14,9 @@ SELECT
 FROM
     Property pr
 LEFT JOIN
-    AirBnB.Review R on pr.property_id = R.property_id;
+    AirBnB.Review R on pr.property_id = R.property_id
+ORDER BY
+    pr.property_id, R.created_at DESC;
 --     payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 --     payment_method VARCHAR(50) NOT NULL,
 --     FOREIGN KEY (booking_id) REFERENCES Booking(booking_id)
