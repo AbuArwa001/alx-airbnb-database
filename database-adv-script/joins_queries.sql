@@ -4,7 +4,7 @@ SELECT
     *
 FROM
     Booking bk
-JOIN
+INNER JOIN
     AirBnB.User U on bk.user_id = U.user_id
 ;
 
