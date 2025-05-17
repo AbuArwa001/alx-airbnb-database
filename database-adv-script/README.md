@@ -28,3 +28,13 @@
 Write a query to find the total number of bookings made by each user, using the COUNT function and GROUP BY clause.
 
 Use a window function (ROW_NUMBER, RANK) to rank properties based on the total number of bookings they have received.
+
+4. Objective: Refactor complex queries to improve performance.
+
+## Instructions:
+
+Write an initial query that retrieves all bookings along with the user details, property details, and payment details and save it on perfomance.sql
+
+    Analyze the query’s performance using EXPLAIN and identify any inefficiencies.
+
+    Refactor the query to reduce execution time, such as reducing unnecessary joins or using indexing.
